@@ -1,0 +1,490 @@
+*{
+    margin: 0px auto;
+    color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+.header{
+    display: flex;
+    width: 1300px;
+    height: 150px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.menu{
+    width: 600px;
+    height: 150px;
+}
+
+.menu ul{
+    width: 80%;
+    height: 90px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-top: 30px;
+    font-size: 19.5px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+    display: block;
+    height: 40px;
+    padding-top: 10px;
+    font-weight: 700;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.menu ul li:last-child{
+    background: #E8505B;
+    border-radius: 1rem;
+    padding: 5px;
+}
+
+.link_nav3{
+    color: white;
+}
+
+.logo{
+    width: 600px;
+    height: 150px;
+    padding-top: 30px;
+}
+
+.logo img{
+    width: 300px;
+    height: 90px;
+}
+
+/* Repartidor */
+
+.repartidor{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100%;
+    width: 96%;
+    height: 400px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.caja_form_repartidor{
+    margin-left: 40px;
+    width: 93%;
+    height: 100%;
+    background: #E8505B;
+}
+
+.caja_repartidor{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.caja_repartidor img{
+    width: 100%;
+    height: 90%;
+    display: block;
+    padding-top: 30px;
+    padding-right: 130px;
+}
+
+.titulo_repartidor{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.caja_formulario{
+    display: flex;
+    flex-direction: column;
+    width: 62%;
+}
+
+label{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+}
+
+.input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 20px;
+}
+
+.caja_wave{
+    width: 97%;
+    height: 230px;
+}
+
+.caja_wave img{
+    display: block;
+    height: 100%;
+}
+
+/* Como Funciona */
+
+.contenedor_funciona{
+    background: #E8505B;
+    width: 96.3%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: ". caja_funciona_texto ."
+    "caja_funciona1 caja_funciona2 caja_funciona3";
+    height: 700px;
+    margin-bottom: 30px;
+}
+
+.imagen_funciona{
+    width: 100%;
+    height: 600px;
+}
+
+.caja_funciona1{
+    grid-area: caja_funciona1;
+}
+
+.caja_funciona2{
+    grid-area: caja_funciona2;
+}
+
+.caja_funciona3{
+    grid-area: caja_funciona3;
+}
+
+.caja_funciona_texto{
+    grid-area: caja_funciona_texto;
+    width: 100%;
+    text-align: center;
+    display: grid;
+}
+
+.caja_funciona_texto h2, p{
+    color: white;
+    width: 100%;
+    font-size: 30px;
+}
+
+/* Testimoniales */
+
+.contenedor_testimoniales{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.testimoniales{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "testimonio1 testimonio1 testimonio1 testimonio2 testimonio3"
+                         "testimonio4 testimonio4 testimonio5 testimonio5 testimonio3";
+    grid-gap: 20px;
+    width: 90%;
+    height: 540px;
+    margin-left: 75px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.titulo_testimoniales{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 610px;
+    font-size: 35px;
+} 
+
+.caja_testimonio{
+    width: 325px;
+    background: #455A64;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.testimonio1{
+    grid-area: testimonio1;
+    width: 710px;
+    box-sizing: border-box;
+}
+
+.testimonio2{
+    grid-area: testimonio2;
+    width: 225px;
+    box-sizing: border-box;
+}
+
+.testimonio3{
+    grid-area: testimonio3;
+    width: 225px;
+    box-sizing: border-box;
+}
+
+.testimonio4{
+    grid-area: testimonio4;
+    width: 460px;
+    box-sizing: border-box;
+}
+
+.testimonio5{
+    grid-area: testimonio5;
+    width: 477px;
+    box-sizing: border-box;
+}
+
+.caja_header{
+    display: flex;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+.imagen_testimonio{
+    border-radius: 50%;
+}
+
+.caja_contenido_header{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.caja_contenido_header h2{
+    color: white;
+}
+
+.caja_testimonio p{
+    width: 80%;
+    height: 80px;
+    margin-left: 55px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.caja_header2 img{
+    width: 50%;
+    padding: 10px;
+}
+
+.caja_header3 img{
+    width: 50%;
+    padding: 10px;
+}
+
+.testimonio1 p{
+    width: 85%;
+}
+
+.testimonio2 p{
+    margin-left: 30px;
+}
+
+.testimonio3 p{
+    margin-left: 30px;
+}
+
+/* Restaurantes Favoritos */
+
+.container_restaurantes{
+    width: 100%;
+    margin-bottom: 30px;
+    background: #ECEEEF;
+}
+
+.container_restaurantes>h2{
+    color: #455A64;
+    padding-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 470px;
+    font-size: 40px;
+}
+
+.restaurantes{
+    height: 1730px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+.restaurante{
+    display: flex;
+    height: 305px;
+    padding: 10px;
+    border-radius: 10px;
+    background: white;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2.6rem -0.8rem #99a4a9;
+}
+
+.restaurante>img{
+    width: 60%;
+    padding: 50px;
+}
+
+.restaurante p{
+    color: #455A64;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.restaurante h2{
+    color: #E8505B;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.caja_header_restaurantes{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.caja_header_restaurantes img{
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+/* Gana Dinero con el App */
+
+.container_Gana{
+    flex-wrap: wrap;
+    height: 550px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.container_Gana>h2{
+    color: #455A64;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.gana_dinero{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.gana_dinero p{
+    color: #455A64;
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+
+.gana_dinero img{
+    padding: 30px;
+    width: 90%;
+}
+
+.caja_gana_texto{
+    padding: 40px;
+}
+
+.caja_gana_texto p{
+    font-size: 20px;
+}
+
+.boton_repartidores
+{
+  background-color: #e8505b;
+  font-size: 29px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 1rem;
+  font-weight: 700;
+  width: auto;
+  text-align: center;
+  color: #ffffff;
+  border: none;}
+
+/* Footer */
+
+.footer{
+    margin-top: 30px;
+    height: 455px;
+    width: 99%;
+    margin-bottom: 20px;
+}
+
+.footer_nav{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 395px;
+    background: #455A64;
+    width: 100%;
+}
+
+.footer>p{
+    background-color:#E8505B;
+    font-size: 20px;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.footer p{
+    display: block;
+    font-size: 20px;
+}
+
+.caja_footer{
+    padding: 20px;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+.caja_footer h2{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.caja_footer p{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.caja_footer_navegacion ul{
+    width: 100%;
+    padding: 0px;
+}
+
+.caja_footer_navegacion ul li{
+    list-style: none;
+}
+
+.caja_footer_navegacion ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 35px;
+    font-weight: bold;
+}
